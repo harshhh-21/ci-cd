@@ -1,0 +1,9 @@
+{
+  "name": "ci-cd-practice",
+  "version": "1.0.0",
+  "description": "GitHub Actions Practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
