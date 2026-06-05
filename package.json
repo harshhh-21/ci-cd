@@ -4,6 +4,7 @@
   "description": "GitHub Actions Practice",
   "main": "app.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "start": "node app.js"
   }
 }
