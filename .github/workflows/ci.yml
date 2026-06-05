@@ -50,5 +50,5 @@ jobs:
         run: |
           aws ecs update-service \
             --cluster ci-cd-cluster \
-            --service ci-cd-service \
+            --service ci-cd-app-service-5tqcbsmc \
             --force-new-deployment
