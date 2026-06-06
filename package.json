@@ -4,7 +4,13 @@
   "description": "GitHub Actions Practice",
   "main": "app.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "node test.js",
     "start": "node app.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.39.4",
+    "globals": "^17.6.0"
   }
 }
